@@ -29,10 +29,10 @@ const Routes = createBrowserRouter([
     children: [
       { path: "/signin", element: <Sign /> },
       { path: "/Home", element: <App /> },
-      { path: "/user/:username", element: <App /> },
+      // { path: "/user/:username", element: <App /> },
       { path: "/", element: <App /> },
       {
-        path: "/user/:username/api/product",
+        path: "/api/product",
         element: (
           <VisibilityProvider>
             <Navbar />

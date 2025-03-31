@@ -56,7 +56,7 @@ const Navbar = () => {
       > */}
       <section
         id="Sect-3"
-        className="h-12 w-full bg-white flex justify-center items-center z-40"
+        className="fixed h-12 w-full bg-white flex justify-center items-center z-40"
       >
         {/* <ScrollLine /> */}
         <ul className="text-Primary flex justify-center items-center gap-7 [&>li]:cursor-pointer">

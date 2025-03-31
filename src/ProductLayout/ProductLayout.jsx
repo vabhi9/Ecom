@@ -47,7 +47,7 @@ const ProductLayout = () => {
         >
           {!hideRedBox && (
             <div
-              className="sticky top-0 mt-6 min-h-[80vh] max-h-[80vh] w-[94%] rounded-2xl bg-red-300
+              className="sticky top-10 mt-10 min-h-[80vh] max-h-[80vh] w-[94%] rounded-2xl bg-red-300
             flex flex-col items-center justify-between py-10 z-10"
             >
               <h1 className="font-bold text-4xl">Price:</h1>
@@ -100,9 +100,11 @@ const ProductLayout = () => {
                 "
                   >
                     <div
-                      className="bg-emerald-500 basis-[55%] w-full rounded-xl p-2"
+                      className="bg-Primary basis-[55%] w-full rounded-xl p-2"
                       id="img"
-                    ><p>{Product.image}</p></div>
+                    >
+                      <p>{Product.image}</p>
+                    </div>
                     <div className="">{Product.content}</div>
                     {/* <div className="">{Product.content}</div> */}
                     <p className="">{Product.price}</p>

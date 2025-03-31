@@ -11,9 +11,12 @@ const scrollFix = () => {
         "fixed",
         "top-0",
         "z-50",
-        "shadow-md",
-        "shadow-slate-500",
-        "shadow-md"
+        // "shadow-md",
+        // "shadow-slate-500",
+        // "shadow-md",
+        // "transition-transform",
+        // "ease-in-out",
+        // "duration-1000"
       );
       categoryLayout.style.position = "absolute"; // Make sure it's positioned
       categoryLayout.style.top = `${sect3.offsetHeight}px`;
@@ -24,9 +27,9 @@ const scrollFix = () => {
         "fixed",
         "top-0",
         "z-50",
-        "shadow-md",
-        "shadow-slate-500",
-        "shadow-xl"
+        // "shadow-md",
+        // "shadow-slate-500",
+        // "shadow-xl"
       );
       categoryLayout.style.position = "";
       categoryLayout.style.top = "";

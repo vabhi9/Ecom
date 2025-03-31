@@ -59,9 +59,9 @@ body {
     /* Prevent overlapping transparency issues */
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 0;
-}
+} */
 
 
 #S21::-webkit-scrollbar {
